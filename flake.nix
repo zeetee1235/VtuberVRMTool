@@ -21,6 +21,10 @@
           packages = with pkgs; [
             dotnet-sdk_8
             mono
+            rustc
+            cargo
+            clippy
+            rustfmt
             git
             ripgrep
             tree
